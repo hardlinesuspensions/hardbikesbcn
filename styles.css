@@ -94,6 +94,17 @@ h1, h2, h3 { font-family: 'Montserrat', sans-serif; color: var(--primary-dark-gr
 }
 */
 
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* separación entre logo y texto */
+}
+
+.logo-img {
+    height: 40px; /* ajusta según tu logo */
+    width: auto;
+}
+
 /* Hover para botones */
 .btn-ws:hover { background: #00A36C; transform: translateY(-3px); }
 .btn-call:hover { background: #072e23; transform: translateY(-3px); }
