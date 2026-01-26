@@ -105,6 +105,16 @@ h1, h2, h3 { font-family: 'Montserrat', sans-serif; color: var(--primary-dark-gr
     width: auto;
 }
 
+footer a {
+    color: #fff;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+footer a:hover {
+    color: #ffcc00;
+}
+
 /* Hover para botones */
 .btn-ws:hover { background: #00A36C; transform: translateY(-3px); }
 .btn-call:hover { background: #072e23; transform: translateY(-3px); }
